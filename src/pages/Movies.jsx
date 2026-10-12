@@ -91,7 +91,7 @@ export default function Movies() {
             value={language}
             aria-label="Filter by language"
             onChange={(event) => update({ language: event.target.value })}
-            className="field lg:w-44"
+            className="field lg:w-44 bg-blue-200"
           >
             <option value="All">All languages</option>
             {languages.map((item) => (
@@ -102,7 +102,7 @@ export default function Movies() {
             value={sort}
             aria-label="Sort movies"
             onChange={(event) => update({ sort: event.target.value })}
-            className="field lg:w-44"
+            className="field lg:w-44 bg-blue-200"
           >
             <option value="featured">Featured</option>
             <option value="rating">Top rated</option>
